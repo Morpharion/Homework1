@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+
+.header {}
+
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
@@ -18,6 +21,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+
 }
 
 .top_title {
@@ -40,6 +44,7 @@
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
+
 }
 
 .text-bold {
@@ -92,24 +97,29 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  &_text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 32px;
+    padding-left: 32px;
+
+  }
+
+  &_1 {
+    background-image: url(img/game1.png);
+  }
+
+  &_2 {
+    background-image: url(img/game2.png);
+  }
+
+  &_3 {
+    background-image: url(img/game3.png);
+  }
 }
-.game_text {
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: 0px;
-  text-align: left;
-  padding-bottom: 32px;
-  padding-left: 32px;
-}
-.game_1 {
-  background-image: url(img/game1.png);
-}
-.game_2 {
-  background-image: url(img/game2.png);
-}
-.game_3 {
-  background-image: url(img/game3.png);
-}/*# sourceMappingURL=style.css.map */
